@@ -17,3 +17,20 @@ Observações interessantes:
   * Como deveria funcionar basicamente uma API.
 * Levei mais tempo estudando e fazendo diversos projetos de teste do que efetivamente desenvolvendo a solução quando me senti confiante no que havia aprendido até o momento.
 * Meu conhecimento nas ferramentas solicitadas no teste era praticamente nulo, e fiquei satisfeito com o aprendizado que foi proporcionado.
+
+Passos utilizados:
+* Criação dos Models (Motorista e Viagem).
+* Criação da Classe de Contexto.
+* Criação dos Controllers, baseados nos models, e utilizando a classe de Contexto.
+* Adicionados os pacotes:
+  * Npgsql.EntityFrameworkCore.PostgreSQL (para utilizar o PostgreSQL)
+  * Microsoft.EntityFrameworkCore
+* Alteração do appsettings.json:
+  * Adicionada ConnectionString para o banco de dados que é utilizado.
+* Alteração do Program.cs:
+  * Adicionada a leitura da configuração criada acima para utilização do Contexto.
+* Criadas as migrations:
+  * Add-Migration NOME_MIGRATION -Contexto CLASSE_CONTEXTO
+* Realizadas as alterações no Banco de Dados:
+  * Update-Database
+* Para realizar os testes da API enquanto não implemento a solução que consumirá a API, utilizei o Postman.
