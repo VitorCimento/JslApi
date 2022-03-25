@@ -25,7 +25,7 @@ namespace JslApi.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Motorista>>> GetMotorista()
         {
-            return await _context.Motorista.ToListAsync();
+            return await _context.Motorista.OrderBy(m => m.Id).ToListAsync();
         }
 
         // GET: api/Motoristas/5

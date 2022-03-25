@@ -25,7 +25,7 @@ namespace JslApi.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Viagem>>> GetViagem()
         {
-            return await _context.Viagem.ToListAsync();
+            return await _context.Viagem.OrderBy(v => v.Id).Include(m => m.Motorista).ToListAsync();
         }
 
         // GET: api/Viagens/5

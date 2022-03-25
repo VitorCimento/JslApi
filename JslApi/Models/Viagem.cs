@@ -11,7 +11,7 @@ namespace JslApi.Models
 
         [Column(TypeName = "NUMERIC(9,4)"),
             DefaultValue(0)]
-        public double PesoCarga { get; set; }
+        public decimal PesoCarga { get; set; }
 
         [Column(TypeName = "TIMESTAMP WITHOUT TIME ZONE"),
             DataType(DataType.DateTime)]
@@ -26,9 +26,7 @@ namespace JslApi.Models
         [Column(TypeName = "NUMERIC(10,4)"),
             DefaultValue(0),
             Required]
-        public double TotalKm { get; set; }
-
-        [JsonIgnore]
+        public decimal TotalKm { get; set; }
         public Motorista? Motorista { get; set; }
         public long MotoristaId { get; set; }
 
