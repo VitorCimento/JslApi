@@ -10,5 +10,9 @@ Principais dificuldades:
 * Conseguir fazer a primeira vez o relacionamento entre os modelos, pois nunca havia utilizado o EntityFramework.
 
 Observações interessantes:
-* Com o conhecimento que eu possuo em Angular e RoR, entendi os conceitos utilizados no ASP.NET Core MVC, onde as camadas são bem definidas e existem formas de comunicação entre o controle e a view, bem como a utilização de migrations para controle do Banco de Dados.
+* Com o conhecimento que eu possuo em Angular e RoR, tive facilidade de identificar e entender:
+  * Conceitos utilizados no ASP.NET Core MVC, onde as camadas são bem definidas e existem formas de comunicação entre o controle e a view
+  * A utilização de migrations para controle de alterações no Banco de Dados.
+  * Como deveria funcionar basicamente uma API.
 * Levei mais tempo estudando e fazendo diversos projetos de teste do que efetivamente desenvolvendo a solução quando me senti confiante no que havia aprendido até o momento.
+* Meu conhecimento nas ferramentas solicitadas no teste era praticamente nulo, e fiquei satisfeito com o aprendizado que foi proporcionado.
