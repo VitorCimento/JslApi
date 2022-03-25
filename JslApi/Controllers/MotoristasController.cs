@@ -10,7 +10,7 @@ using JslApi.Models;
 
 namespace JslApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/Motoristas")]
     [ApiController]
     public class MotoristasController : ControllerBase
     {
@@ -43,7 +43,6 @@ namespace JslApi.Controllers
         }
 
         // PUT: api/Motoristas/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
         public async Task<IActionResult> PutMotorista(long id, Motorista motorista)
         {
@@ -74,7 +73,6 @@ namespace JslApi.Controllers
         }
 
         // POST: api/Motoristas
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
         public async Task<ActionResult<Motorista>> PostMotorista(Motorista motorista)
         {
