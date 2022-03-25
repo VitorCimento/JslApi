@@ -8,6 +8,7 @@ Tempo de desenvolvimento dessa API: Em torno de 1 hora e 30 minutos.
 Principais dificuldades:
 * Aprender o framework ASP.NET MVC, pois já tinha um conhecimento anterior em C#, então o foco foi aprender as particularidades de utilização do framework.
 * Conseguir fazer a primeira vez o relacionamento entre os modelos, pois nunca havia utilizado o EntityFramework.
+* Conseguir utilizar o Oracle Database Express Edition (21c). Apesar de já ter baixado e instalado, ainda não consegui compreender exatamente como devo manusear e desenvolver com essa ferramenta, talvez por estar muito acostumado com o PostgreSQL e suas ferramentas de utilização, frisando que a linguagem, pelo que estudei, tem suas particularidades, mas não é esse o ponto de dificuldade.
 
 Observações interessantes:
 * Com o conhecimento que eu possuo em Angular e RoR, tive facilidade de identificar e entender:
